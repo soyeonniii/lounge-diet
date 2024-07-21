@@ -156,10 +156,14 @@ body, html {
     }
 
     .lounge-data {
-        width: 400px;
+        width: 380px;
     }
     
     .lounge-data-smalltext {
         font-size: 14px;
+    }
+
+    .content h2 {
+        font-size: 20px;
     }
 }
