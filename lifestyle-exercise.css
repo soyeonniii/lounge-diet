@@ -156,6 +156,9 @@ body, html {
     }
 
     .lounge-data {
-        width: 90%;
+        width: 100%;
     }
+    
+    .lounge-data-smalltext {
+        font-size: 14px;
 }
