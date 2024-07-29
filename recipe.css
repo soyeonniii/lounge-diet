@@ -336,6 +336,11 @@ button.recipe-1 img, button.recipe-2 img, button.recipe-3 img, button.recipe-4 i
         font-size: 14px;
     }
 
+    button.detail {
+        width: 75px;
+        height: 32px;
+    }
+
     .content-text {
         width: 325px;
     }
