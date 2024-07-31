@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pretendard&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
 body, html {
     margin: 0;
@@ -290,11 +290,57 @@ button.banner {
         width: 365px;
     }
 
+    .recipe-title, .diet-title {
+        font-size: 19px;
+    }
+
+    .recipe-text1, .diet-text1 {
+        font-size: 13px;
+    }
+
+    .recipe-text2 {
+        font-size: 13px;
+        bottom: 10px;
+    }
+
+    .recipe-button {
+        position: absolute;
+        top: 64px;
+        left: 298px;
+        background-color: #00B2FF;
+        color: white;
+        font-size: 13px;
+        border: none;
+        border-radius: 20px;
+        padding: 6px 10px;
+        cursor: pointer;
+        font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
+
     .recipe-text {
         width: 365px;
     }
 
     .banner2 {
-        width: 345px;
+        width: 335px;
+    }
+
+    .content-text{
+        width: 335px;
+        
+    }
+    
+    .content-color-text{
+        width: 335px;
+    }
+    
+    .diet-item {
+        margin-right: 19px;
+        text-align: center;
+    }
+    
+    .diet-img {
+        width: 70px;
+        height: 70px;
     }
 }
