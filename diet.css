@@ -160,6 +160,7 @@ button.banner {
 }
 
 .recipe-text2 {
+    width: 240px;
     font-size: 15px;
     color: #919191;
     position: absolute;
@@ -209,7 +210,7 @@ button.banner {
     align-items: center;
     justify-content: center;
     background-color: #00B2FF;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 5px;
     border-radius: 10px;
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     border: none;
@@ -323,14 +324,15 @@ button.banner {
 
     .banner2 {
         width: 335px;
+        margin: 20px 0px 0px 0px;
     }
 
     .content-text{
-        width: 330px;
+        width: 325px;
     }
     
     .content-color-text{
-        width: 330px;
+        width: 325px;
     }
     
     .diet-item {
